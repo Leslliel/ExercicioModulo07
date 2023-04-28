@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior que</title>
+    <link rel="stylesheet" href="./main.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>O B é maior?</h1>
+        <form id="form-deposito">
+            <input type="number" id="numero-A" required placeholder="Valor A" />
+            <input type="number" id="numero-B" required placeholder="Valor B" />
+            <button id="btn-verificar" type="submit">Verificar</button>
+            <p class="failed-message">Não, o valor B é menor ou igual ao A</p>
+            <p class="success-message">Sim, o valor B é maior que o A</p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
